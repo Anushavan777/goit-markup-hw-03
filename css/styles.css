@@ -57,6 +57,7 @@ body {
 
 .logo-title-right{
     color: #000000 ;
+    margin-right: 93px;
     }   
     
 .footer-logo-title-right {
@@ -496,7 +497,7 @@ img {display:block;}
 .item {}
 
 .logo {
-    margin-right: 93px;
+    /* margin-right: 93px; */
 }
 
 .logo-title-right {
@@ -628,14 +629,18 @@ MAIN  */
     padding-top: 30px;
 }
 
-/* footer-container */
+.footer-container {
+    /* width: 1200px; */
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
 
 .footer-contacts {
     margin-top: 94px;
 }
 
 .footer-container {
-    background-color: #2196f3;
+    /* background-color: #2196f3; */
     width: 1200px;
     padding-right: 15px;
     padding-left: 15px;
