@@ -176,7 +176,7 @@ flex-direction: row; */
 }
 
 .main-section-button-list {
-  margin-bottom: 50px;
+  /* padding-bottom: 50px; */
   display: flex;
   justify-content: center;
 }
@@ -634,7 +634,7 @@ PORTFOLIO ============
 ====================== */
 .main-section-button {
   padding-top: 94px;
-  padding-bottom: 94px;
+  padding-bottom: 50px;
 }
 
 .p-button-container {
@@ -657,6 +657,7 @@ PORTFOLIO ============
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  padding-bottom: 94px;
 }
 
 .section-img-list {
@@ -677,9 +678,16 @@ PORTFOLIO ============
   margin-right: 30px;
   margin-bottom: 30px; */
   width: calc((100% - 60px) / 3);
+  /* margin-right: 30px;
+  margin-bottom: 30px; */
+}
+
+.section-item-img:not(:nth-child(3n)) {
   margin-right: 30px;
+}
+
+.section-item-img:not(:nth-last-child(-n + 3)) {
   margin-bottom: 30px;
- 
 }
 
 /* .card-img-item :first-child  {
