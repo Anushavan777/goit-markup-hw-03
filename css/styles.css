@@ -68,7 +68,6 @@ body {
 
 .logo-title-right {
   color: #000000;
-  margin-right: 93px;
 }
 
 .footer-logo-title-right {
@@ -151,10 +150,22 @@ flex-direction: row; */
 }
 
 /* main */
+
 .main {
 }
 
-/* main-section-button-list */
+.main-portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.portfolio-container {
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
 
 .visually-hidden {
   position: absolute;
@@ -171,36 +182,35 @@ flex-direction: row; */
 }
 
 .main-section-button {
-  /* display: flex;
-    justify-content: center; */
 }
 
 .main-section-button-list {
-  /* padding-bottom: 50px; */
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
+}
+
+.main-section-button-list li:not(:last-child) {
+  margin-right: 8px;
 }
 
 .button {
-  /* font-family: inherit;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 1.33;
-    letter-spacing: 0.09em;
-    text-transform: uppercase;
-    background-color: transparent;
-    cursor: pointer;
-    box-shadow: 0px 0px 0px 0px #f3ebeb;
-    margin-bottom: 15px; */
-  display: inline-flex;
-  flex-direction: row;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  background-color: transparent;
+  cursor: pointer;
+  box-shadow: 0px 0px 0px 0px #f3ebeb;
+
   /* box-shadow: 0px 4px 4px #40000000, 0em 0 0.4em rgb(177, 177, 172); */
   /* СЕРГЕЙ ПОДСкажите с тенью ПОЖАЛУЙСТО */
-  background-color: #f5f4fa;
 }
 
 .button-mode-blue {
-  background-color: #757575;
+  background-color: #f5f4fa;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -208,15 +218,27 @@ flex-direction: row; */
   letter-spacing: 0.03em;
   background-color: transparent;
   cursor: pointer;
-  box-shadow: 0px 0px 0px 0px #f3ebeb;
-  margin-right: 5px !important;
-  padding: 6px 22px !important;
+  padding: 6px 24px;
+  border: none;
+
+  /* margin-right: 5px !important;
+  padding: 6px 22px !important; */
+}
+
+.button {
+  border: #188ce8;
+  background-color: #f5f4fa;
+  border-radius: 4px;
 }
 
 .button-mode-blue:hover {
   background-color: #2196f3;
   cursor: pointer;
   color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 
 /* .button-mode-blue:hover{
@@ -233,6 +255,8 @@ flex-direction: row; */
   letter-spacing: 0.06em;
   cursor: pointer;
   border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 
 .button-hero:hover,
@@ -290,7 +314,7 @@ flex-direction: row; */
   list-style-type: none;
 }
 
-.footer-contacts-list li:not(Last-child) {
+.footer-contacts-list li:not(:last-child) {
   margin-bottom: 9px;
 }
 
@@ -359,6 +383,7 @@ flex-direction: row; */
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
+  margin-bottom: 10px;
 }
 
 .ourfeatures-p-text {
@@ -399,6 +424,7 @@ flex-direction: row; */
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: #212121;
+  margin-bottom: 10px;
 }
 
 .ourteam-p-en-text {
@@ -504,13 +530,13 @@ ul {
 /* ==========
 MAIN  */
 
-.main-container {
+/* .main-container {
   width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-}
+} */
 
 .ourfeatures-container {
   width: 1200px;
@@ -522,7 +548,6 @@ MAIN  */
 
 .section-ourfeatures {
   padding-top: 94px;
-  /* margin-top: 94px; */
 }
 
 .section-ourfeatures-list {
@@ -634,21 +659,6 @@ PORTFOLIO ============
 ====================== */
 .main-section-button {
   padding-top: 94px;
-  padding-bottom: 50px;
-}
-
-.p-button-container {
-  /* display: flex; */
-}
-
-.button-mode-blue {
-  margin: 0;
-  padding: 0;
-  border: none;
-}
-
-.main-section-button-list {
-  /* margin: 64px 0 30px ; */
 }
 
 .main-img-container {
@@ -674,12 +684,7 @@ PORTFOLIO ============
 }
 
 .section-item-img {
-  /* width: 370px;
-  margin-right: 30px;
-  margin-bottom: 30px; */
   width: calc((100% - 60px) / 3);
-  /* margin-right: 30px;
-  margin-bottom: 30px; */
 }
 
 .section-item-img:not(:nth-child(3n)) {
