@@ -151,7 +151,17 @@ flex-direction: row; */
 
 /* main */
 
+.main-studio {
+ 
+}
+
 .main {
+}
+
+.main-desigion-forbisness {
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+  url(/imeges/hw4_svg/Img\ Overlay.svg);
+
 }
 
 .main-portfolio {
