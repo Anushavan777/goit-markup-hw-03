@@ -364,13 +364,13 @@ flex-direction: row; */
    text-transform: uppercase; */
 }
 
-.main-desigion-forbisness {
+/* .main-desigion-forbisness {
   width: 1200px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+} */
 
 .desigion-forbisness-text {
   font-weight: 900;
@@ -650,11 +650,6 @@ MAIN  */
 .footer-contacts {
   padding-top: 60px;
   padding-bottom: 60px;
-  width: 1200px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 .footer-container {
